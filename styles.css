@@ -1,0 +1,47 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: blue;
+}
+
+h1 {
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 500px) and (min-width:30px){
+    h1 {
+        text-size-adjust: auto;
+    }
+}
+
+.kennyImg {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px;
+}
+    
+button{
+    height: 50px;
+    background-color: red;
+
+}
+
+.hugBtn {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
