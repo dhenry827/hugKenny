@@ -4,7 +4,7 @@ body {
     width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: blue;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/4762d296-a725-471a-9933-1827063a3629/d1xemnv-9c72d62c-3416-4cd6-b79d-2e9c6a66ac66.jpg);
 }
 
 h1 {
@@ -12,9 +12,11 @@ h1 {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    color: aliceblue;
+    color: black;
     font-size: 60px;
     font-family: sans-serif;
+    margin-bottom: 150px;
+    margin-top: 70px;
 }
 
 @media screen and (max-width: 500px) and (min-width:30px){
@@ -29,7 +31,7 @@ h1 {
     text-align: center;
     flex-direction: row;
     justify-content: center;
-    margin: 80px;
+    margin: 18px;
 }
     
 button{
